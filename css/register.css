@@ -1,0 +1,193 @@
+.head{
+    /* background-color: pink; */
+    width: 100%;
+    height: 93px;
+}
+.headtop{
+    padding-top: 18px;
+    padding-left: 100px;
+    padding-right: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title a {
+    width: 40px;
+    height: 20px;
+    font-size: 14px;
+    font-family: HYQiHei60S;
+    font-weight: 400;
+    color: #001e50;
+    line-height: 20px;
+    display: block;
+    cursor: pointer;
+    /* text-decoration: none */
+}
+.logo img{
+    width: 78px;
+    height: 24px;;
+}
+.line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lineleft{
+    height: 4px;
+    background: #001e50;
+    flex:1;
+}
+.lineimg{
+    width: 74px;
+    height: 48px;
+    background-color: #fff;
+} 
+.lineimg img{
+    width: 48px;
+    height: 48px;
+    margin: 0 13px;
+}
+.lineright{
+    width: 32%;
+    height: 4px;
+    background: #001e50;
+}
+.nav{
+    background-repeat: no-repeat;
+    width: 1226px;
+    margin: 93px auto 118px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: pink; */
+}
+.navimg{
+    margin-top: 29px;
+    width: 656px;
+    height: 574px;
+}
+.login{
+    width: 400px;
+    margin-right: 97px;
+    margin-top: 28px;
+}
+.logintop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #001e50;
+    background-color: #fff;
+}
+.loginmid{
+    margin-top: 50px;
+}
+.loginmid input{
+    height: 37px;
+    width: 400px;
+    border: none;
+    background: transparent;
+    padding: 8px 0;
+    border-bottom: 2px solid #001e50;
+    font-size: 16px;
+}
+.foottwo{
+    margin-top:40px;
+}
+.foottwoa{
+    width: 400px;
+    height: 51px;
+    background: #00b0f0;
+    border-color: #00b0f0;
+    color: #fff;
+    border-radius: 26px;
+    font-size: 25px;
+    text-align: center;
+    line-height:51px; 
+}
+.foottwoa a{
+    font-size: 25px;
+    color: #fff;
+}
+.footthree{
+    margin: 28px 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.linea{
+    height: 2px;
+    width: 120px;
+    margin-left: 0;
+    background: #001e50;
+    /* float: left; */
+    margin-top: 8px;
+    box-sizing: border-box;
+}
+.con{
+    width: 144px;
+    height: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #001e50;
+    line-height: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    /* float: left; */
+}
+.footfour{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.yuan{
+    cursor: pointer;
+    color: #001e50;
+}
+.icon-weixin{
+    font-size: 58px !important;
+    color: green;
+    margin-right: 5px;
+}
+.foot{
+    background: transparent;
+    width: 1226px;
+    margin: 0 auto;
+    padding-top: 90px;
+    border-top: 2px solid #001e50;
+}
+.foot-con{
+    background: transparent;
+    width: 1226px;
+    margin: 0 auto;
+}
+.big{
+    padding-left: 95px;
+    padding-bottom: 124px;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+}
+.biglist{
+    margin-bottom: 30px;
+}
+.bottom{
+    text-align: left;
+    padding: 0 0 100px;
+    color: #001e50;
+    width: 1226px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom li{
+    color: #001e50;
+    font-size: 14px;
+    padding: 2px;
+}
+.bottom span{
+    margin: 0 28px;
+}
+

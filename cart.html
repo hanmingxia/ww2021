@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+</head>
+
+<body>
+    <div id="cart">
+        <!-- 头部 -->
+        <div class="head">
+            <div class="head-bottom">
+                <div class="line"></div>
+                <div class="bottom-con">
+                    <div class="list">
+                        <div class="lista">
+                            <div class="leftcart">
+                                <span>购物车</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <div class="logo"></div>
+                    </div>
+                    <div class="box3">
+                        <i class="iconfont icon-sousuosearch82
+                                "></i>
+                        <div class="logo2">
+                            <img src="images/logo2.png" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <!-- 中间模板 -->
+        <!-- <div class="bigbox">
+            <div class="empty">
+                    <div class="cartphoto">
+                        <img src="images/cart.png" alt="">
+                    </div>
+                    
+                    <p class="emptycon">您的购物车是空的</p>
+                    <div class="pe-operation"></div>
+            </div>
+        </div> -->
+        <div class="main">
+
+            <div class="main-con">
+                <div class="maintitle">
+                    <span>全部商品</span>
+                </div>
+                <div class="mainheader">
+                    <span style="width:  calc(40% - 32px);">商品信息</span>
+                    <span style="width: 20%;">单价</span>
+                    <span style="width: 20%;">数量</span>
+                    <span style="width: 20%">操作</span>
+                </div>
+                <div class="mainmiddle">
+                    <div class="warp">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 62px;">
+                                        <label for="">
+                                            <input type="checkbox" class="checkAll">
+                                        </label>
+                                    </th>
+                                    <th style="width:  40%">
+                                        <div>包邮产品</div>
+                                    </th>
+                                    <th style="width: calc(100% - 40% 62px) " colspan="3">
+                                        <div></div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <label for="">
+                                            <input type="checkbox" class="check">
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <div class="productimg">
+                                            <img src="images/fu.jpg" alt="">
+                                        </div>
+                                        <div class="product">
+                                            <div class="name">点亮星光福袋</div>
+                                            <div class="postage">包邮</div>
+                                        </div>
+                                    </td>
+                                    <td >
+                                        <div style="float: left;">￥</div>
+                                        <div class="money" style="float: left;">799</div>
+                                    </td>
+                                    <td>
+                                        <div class="piece">
+                                            <button class="sub">-</button>
+                                            <span class="count">1</span>
+                                            <button class="add">+</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="delete">
+                                            <span>删除</span>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="5" style="border: none">
+                                        <div class="tableFooter">
+                                            <div class="footerBtn">
+                                                <span class="deleteBtn">删除所选商品</span>
+                                            </div>
+                                            <div class="account">
+                                                <div class="selectKey">已选商品
+                                                    <span class="priceBlue totalcount"> 0 </span>
+                                                    件
+                                                </div>
+                                                <div class="price">合计：￥
+                                                    <span class="priceBlue totalprice">0</span>
+                                                </div>
+                                                <a href="jiesuan.html"> <button class="accountBtn">结算</button> </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </tfoot>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="mainfooter"></div>
+            </div>
+        </div>
+
+        <!-- 底部 -->
+        <div class="foot">
+            <div class="foot-con">
+                <div class="foottopbox">
+                    <div class="boxone">
+                        <div class="oneli">品牌车型</div>
+                        <div class="oneli">选车中心</div>
+                        <div class="oneli">预约试驾</div>
+                        <div class="oneli">询价</div>
+                    </div>
+                    <div class="boxtwo">
+                        <div class="twoli">金融服务</div>
+                        <div class="twoli">品牌活动</div>
+                        <div class="twoli">在线客服</div>
+                        <div class="twoli">新闻资讯</div>
+                    </div>
+                    <div class="boxthree">
+                        <div class="threeli">上汽大众</div>
+                        <div class="threeli">大众一家</div>
+                        <div class="threeli">经销商查询</div>
+                        <div class="threeli">官方认证二手车</div>
+                    </div>
+                    <div class="boxfour">
+                        <div class="foura">
+                            <img src="images/logoewm.png" alt=""> 上汽大众大众品牌
+                        </div>
+                        <div class="fourb">
+                            <img src="images/sqdzewm.jpg" alt="">
+                            <span class="fourbtit">上汽大众超级APP</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footbutbox">
+                    <span class="but">网站备案/许可证号:</span>
+                    <span class="but">沪ICP备08007566号|</span>
+                    <span class="but">沪公网安备31011402001376号|</span>
+                    <span class="but">隐私政策|</span>
+                    <span class="but">上汽大众商城|</span>
+                    <span class="but">版权</span>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<script src="js/machine.js"></script>
+<!-- <script src="js/jquery.min.js"></script> -->
+<script src="js/cart.js"></script>

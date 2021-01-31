@@ -1,0 +1,425 @@
+/* 头部 */
+#cart{
+    background:#f0f2f5;
+}
+.head{
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid #e0e1e2;
+}
+.head-bottom{
+    line-height: 72px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-width: 1226px;
+    background-color: #fff;
+}
+.line{
+    width: 100%;
+    min-height: 76px;
+    border-bottom: 2px solid #001e50;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bottom-con{
+    width: 1226px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    /* background-size: 100%; */
+}
+.list{
+    width: 766px;
+    display: flex;
+    justify-content: flex-start;
+}
+.lista{
+    width: 478px;
+    display: flex;
+    justify-content: flex-start ;
+    box-sizing: border-box;
+    font-size: 14px;
+    color:rgba(0,0,0,.65);
+}
+.leftcart{
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    margin:0 26px 0 26px;
+}
+.leftcart span{
+    display: inline-block;
+    cursor: default;
+    color: #4a4a4a;
+    padding: 0 10px;
+    margin: 0 15px;
+    height: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.box2{
+    margin-top: 48px;
+    width: 72px;
+    z-index: 2;
+    background-color: #fff;
+    margin-left: 20px;
+}
+.box2 .logo{
+    width: 48px;
+    height: 48px;
+    background: url(../images/logo.png)  no-repeat;
+    background-size:100%; 
+    display: flex;
+    margin: auto; 
+}
+.box3{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.box3 i{
+    cursor: pointer;
+}
+.logo2{
+    cursor: pointer;
+    margin: 0 25px 0 18px;
+    width: 80px;
+}
+.box3 .logo2 img{
+    width: 86px;
+    height: 26px;
+}
+
+/* 中间模板 */
+.bigbox{
+    box-sizing: border-box;
+    /* padding-bottom: 225.5px; */
+    padding-top: 144px;
+    width: 1226px;
+    margin: 0 auto;
+}
+.main{
+    box-sizing: border-box;
+    /* padding-bottom: 225.5px; */
+    padding-top: 144px;
+    width: 1226px;
+    margin: 0 auto;
+}
+.empty{
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 40px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.cartphoto{
+    width: 160px;
+    height: 160px;
+    background-color: #ededed;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.cartphoto img{
+    width: 160px;
+    height: 160px;
+}
+.emptycon{
+    font-size: 20px;
+    color: #9b9b9b;
+    margin-top: 40px;
+    margin-bottom: .75rem;
+}
+.main-con{
+    margin-top: -3px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+.maintitle{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #001e50;
+}
+.maintitle span{
+    width: 125px;
+    display: inline-block;
+    height: 50px;
+    background: #001e50;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+}
+.mainheader{
+    margin: 20px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #d9d9d9;
+    padding-left: 32px;
+}
+.mainheader span{
+    display: inline-block;
+    text-align: center;
+    border-bottom: 0;
+    font-size: 16px;
+    color: #4a4a4a;
+    font-weight: 400;
+}
+.mainmiddle{
+    margin: 0 20px;
+}
+.warp{
+    box-sizing: border-box;
+}
+.warp table{
+    width: 100%;
+    /* border: 1px solid #d9d9d9; */
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #d9d9d9;
+    padding: 16px;
+}
+.warp tr{
+    background-color: #fff;
+    border-bottom: 0;
+    text-align: left;
+    font-size: 16px;
+    color: #4a4a4a;
+    font-weight: 400;
+}
+.checkAll{
+    font-size: 14px;
+    color: rgba(0,0,0,.65);
+    box-sizing: border-box;
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.warp .check{
+    font-size: 14px;
+    color: rgba(0,0,0,.65);
+    box-sizing: border-box;
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.productimg{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    overflow: hidden;
+    /* display: inline-block; */
+    float: left;
+}
+.productimg img{
+    width: 120px;
+    height: 120px;
+}
+.product{
+    float: left;
+    width: calc(100% - 120px);
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 120px;
+    box-sizing: border-box;
+}
+.product .name{
+    font-size: 20px;
+    color: #212c3d;
+    font-weight: 400;
+}
+.product .postage{
+    font-size: 14px;
+    color: #9b9b9b;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 12px;
+}
+.money{
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 600;
+}
+.piece{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+button{
+    height: 44px;
+    width: 44px;
+    border-radius: 4px;
+    border: 1px solid #e0e1e2;
+    text-align: center;
+    outline: 0;
+    font-size: 16px;
+    color: rgba(0,0,0,.65);
+    cursor: pointer;
+}
+.count{
+    width: 80px;
+    margin-left: 6px;
+    margin-right: 6px;
+    color: #4a4a4a;
+    border: 1px solid #e0e1e2;
+    text-align: center;
+    line-height: 44px;
+}
+.delete{
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 500;
+}
+.delete span{
+    display: inline-block;
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+/* 结算 */
+.warp tfoot{
+    height: 50px;
+    width: 100%;
+}
+.tableFooter {
+    height: 50px;
+    width: 100%;
+    clear: both;
+    color: #4a4a4a;
+    line-height: 50px;
+    background-color: #fff;
+    margin-top: 21px;
+}
+.tableFooter .footerBtn {
+    float: left;
+    font-size: 16px;
+    padding-left: 26px;
+}
+.tableFooter .footerBtn .deleteBtn {
+    display: inline-block;
+    height: 50px;
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-left: 20px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.tableFooter .account {
+    font-size: 18px;
+    float: right;
+}
+.tableFooter .account div {
+    display: inline-block;
+}
+.tableFooter .account .priceBlue {
+    color: #00b0f0;
+}
+.tableFooter .account .price {
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.tableFooter .account .priceBlue {
+    color: #00b0f0;
+}
+.tableFooter .account .accountBtn {
+    display: inline-block;
+    background: #001e50;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    border-radius: 25px;
+    height: 30px;
+    width: 115px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+/* 底部 */
+.foot{
+    background: #fff;
+    box-shadow: 0 -1px 3px 0 #3d464d;
+    box-shadow: 0 -1px 0 0 #e0e1e2;
+    width: 100%;
+    height: 225px;
+    padding-top: 40px;
+    position: relative;
+    bottom: 0;
+    /* margin-top:20px;  */
+}
+.foot-con{
+    width: 1226px;
+    height: 225px;
+    margin: 0 auto;
+}
+.foottopbox{
+    box-sizing: border-box;
+    display: flex;
+    height: 141px;
+    padding-left:42px; 
+}
+.boxone,.boxtwo{
+    box-sizing: border-box;
+    width: 20.83333333%;
+    padding-left: 2px;
+}
+.oneli,.twoli,.threeli{
+    line-height: 32px;
+}
+.boxthree{
+    box-sizing: border-box;
+    width: 25%;
+    padding-left: 2px;
+}
+.boxfour{
+    color: #000;
+    line-height: 25px;
+    font-size: 14px;
+    height: auto
+}
+.foura{
+    width: 195px;
+    height: 141px;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+}
+.foura img,.fourb img{
+    width: 116px;
+    height: 116px;
+    padding:0 40px 0 40px; 
+}
+.fourb{
+    width: 195px;
+    height: 141px;
+    float: left;
+    text-align: center;
+}
+.footbutbox{
+    text-align: left;
+    padding: 0 0 30px 42px;
+    color: #616161;
+}
+.but{
+    text-decoration: none;
+    color: #616161;
+    font-size: 12px;
+}
